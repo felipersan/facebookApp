@@ -9,14 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~48.0.4",
+    "expo": "^48.0.4",
+    "expo-auth-session": "^4.0.3",
+    "expo-cli": "^6.3.2",
+    "expo-constants": "~14.2.1",
+    "expo-facebook": "^12.2.0",
+    "expo-random": "^13.1.1",
     "expo-status-bar": "~1.4.4",
+    "expo-web-browser": "~12.1.1",
+    "install": "^0.13.0",
+    "npx": "^10.2.2",
     "react": "18.2.0",
     "react-native": "0.71.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.0.14",
+    "@types/react-native": "^0.71.3",
     "typescript": "^4.9.4"
   },
   "private": true

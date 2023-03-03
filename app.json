@@ -1,7 +1,13 @@
 {
   "expo": {
-    "name": "fbLogin",
-    "slug": "fbLogin",
+    "name": "fb-login",
+    "slug": "fb-login",
+    "scheme": "com.felipersan.fb-login",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +21,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.felipersan.fblogin"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.felipersan.fblogin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "80ec5f02-0782-4e54-b551-ba688066da92"
+      }
     }
   }
 }
